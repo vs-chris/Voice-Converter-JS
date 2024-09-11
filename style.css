@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+    background: linear-gradient(45deg, #010758, #490d61)
+}
+
+
+.voice-app {
+    /* border: 1px solid red; */
+}
+
+.voice-app h1 {
+    color: #fff;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+}
+
+.voice-app h1 span {
+    color: rgb(212, 62, 87);
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+}
+
+.voice-app textarea {
+    display: block;
+    width: 100%;
+    background: #403d84;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    margin-bottom: 25px;
+    outline: none;
+    font-size: 1.2em;
+    padding: 20px;
+}
+
+
+.voice-app textarea::placeholder {
+    color: #ffffffab;
+}
+
+.voice-app div {
+    display: flex;
+}
+
+.voice-app div select {
+    flex: 1;
+    margin-right: 20px;
+    background-color: #403d84;
+    color: #fff;
+    border-radius: 40px;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    appearance: none;
+    position: relative;
+    background-image: url(images/v-solid.svg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 15px);
+    background-size: 10px;
+}
+
+.voice-app div button {
+    padding: 10px 20px;
+    background-color: rgb(212, 62, 87); ;
+    color: #fff;
+    border-radius: 40px;
+    outline: none;
+    border: none;
+    font-weight: lighter;
+} 
